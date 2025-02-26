@@ -9,8 +9,8 @@ public:
 
         for (size_t i = 0; i< n-1; i++){
             temp = primeiroPasso + segundoPasso;
-            primeiroPasso = temp;
-            segundoPasso = primeiroPasso;
+            primeiroPasso = segundoPasso;
+            segundoPasso = temp;
         }
 
         return temp;
